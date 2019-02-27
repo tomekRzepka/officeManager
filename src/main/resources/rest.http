@@ -1,0 +1,23 @@
+
+###
+
+GET http://localhost:8080/person/v1/1
+Accept: application/json
+
+###
+
+POST http://localhost:8080/person/v1/addItem
+Content-Type: application/json
+
+{
+  "name": "tomek1",
+  "role": "developer"
+}
+
+###
+
+GET http://localhost:8080/person/v1/
+Accept: application/json
+
+###
+
